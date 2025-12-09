@@ -1,0 +1,33 @@
+﻿  behavior.cpp
+  food.cpp
+  gameControll.cpp
+  gameInit.cpp
+  game_start.cpp
+  Input.cpp
+  Interface.cpp
+  Interface_Menu.cpp
+  IView.cpp
+  snake.cpp
+  UI_Fail.cpp
+C:\Users\Jiaorui\Downloads\greedy-snake-master\snake.cpp(53,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Jiaorui\Downloads\greedy-snake-master\snake.cpp(88,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  UI_LevelSelect.cpp
+  UI_Logo.cpp
+  logo_Point.cpp
+  main.cpp
+  mainScene.cpp
+  point.cpp
+  scene.cpp
+  time.cpp
+  tools.cpp
+  正在生成代码...
+  正在编译...
+  sceneControll.cpp
+C:\Users\Jiaorui\Downloads\greedy-snake-master\sceneControll.cpp(66,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Jiaorui\Downloads\greedy-snake-master\sceneControll.cpp(95,20): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+C:\Users\Jiaorui\Downloads\greedy-snake-master\sceneControll.cpp(146,55): warning C4244: “=”: 从“long”转换到“float”，可能丢失数据
+C:\Users\Jiaorui\Downloads\greedy-snake-master\sceneControll.cpp(149,41): warning C4244: “参数”: 从“double”转换到“DWORD”，可能丢失数据
+C:\Users\Jiaorui\Downloads\greedy-snake-master\sceneControll.cpp(150,22): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+  UI_SnakeText.cpp
+  正在生成代码...
+  Day2_Practice.vcxproj -> C:\Users\Jiaorui\Downloads\greedy-snake-master\x64\Debug\Day2_Practice.exe

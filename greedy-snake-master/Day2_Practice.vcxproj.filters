@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\script">
+      <UniqueIdentifier>{b0ed1360-5c0f-46be-a78b-8fb58ff27a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\script">
+      <UniqueIdentifier>{c0654717-a901-4e75-a88a-1f05f33672e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\script\game">
+      <UniqueIdentifier>{b218c471-eecd-464b-a86f-2fa4aec2df92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\script\game">
+      <UniqueIdentifier>{2cbbda43-f2d2-4ef4-8e15-0fa33c1e8bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\engine">
+      <UniqueIdentifier>{77159f62-d09a-4428-99e1-fbfd973c0cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\engine\scene">
+      <UniqueIdentifier>{156f3a7a-6138-4311-9a09-39b26ea82ab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\engine\scene\behavior">
+      <UniqueIdentifier>{ddbf293d-35b7-4eff-8815-5a8cfac27f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\engine\view">
+      <UniqueIdentifier>{e25bd16a-36de-4eeb-b74a-6380e7a3ba87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\engine\tool">
+      <UniqueIdentifier>{f2340863-b625-4399-907f-970347fbea81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\engine\time">
+      <UniqueIdentifier>{910daa98-9d7b-45aa-b4da-fb34adcf4ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\engine\game">
+      <UniqueIdentifier>{11ad8f22-b46a-46fb-afd0-e6c2e9e98108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine">
+      <UniqueIdentifier>{f70c91d5-e243-4011-a349-ca09d8f39554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\time">
+      <UniqueIdentifier>{32a19441-7f13-4304-abdc-5853c7804913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\tool">
+      <UniqueIdentifier>{d0f75d6d-8da8-47bb-85d0-b84a5cd5ad13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\view">
+      <UniqueIdentifier>{22c26373-484f-4002-ba11-b1f7fbbfea82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\scene">
+      <UniqueIdentifier>{d100b8ed-18fd-430c-961c-1e4cad5a5e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\scene\behavior">
+      <UniqueIdentifier>{05d094a4-b5ae-4de8-8a3b-3a7a127db420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\engine\game">
+      <UniqueIdentifier>{1ca0d04e-181e-4677-96b9-bc8cc3e6353a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\script\game\logo">
+      <UniqueIdentifier>{fca63b7d-1e4c-4c21-b905-7420e32ef8f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\script\game\logo">
+      <UniqueIdentifier>{8ab83504-81fe-4f75-8745-b5b3ad0124e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\script\game\snakeText">
+      <UniqueIdentifier>{7fa492c3-32cd-4729-a755-330392822420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\script\game\snakeText">
+      <UniqueIdentifier>{ec895057-01c2-4842-82ea-c58299433d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\script\game\Interface">
+      <UniqueIdentifier>{ce596556-8585-49e3-a897-e089d193cab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\script\game\Interface">
+      <UniqueIdentifier>{7035130c-f433-4a43-9014-04778cd6fa30}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IView.cpp">
+      <Filter>源文件\engine\view</Filter>
+    </ClCompile>
+    <ClCompile Include="gameInit.cpp">
+      <Filter>源文件\engine\game</Filter>
+    </ClCompile>
+    <ClCompile Include="tools.cpp">
+      <Filter>源文件\engine\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>源文件\engine\time</Filter>
+    </ClCompile>
+    <ClCompile Include="behavior.cpp">
+      <Filter>源文件\engine\scene\behavior</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>源文件\engine\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="game_start.cpp">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="mainScene.cpp">
+      <Filter>源文件\script</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>源文件\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneControll.cpp">
+      <Filter>源文件\engine\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Logo.cpp">
+      <Filter>源文件\script\game\logo</Filter>
+    </ClCompile>
+    <ClCompile Include="logo_Point.cpp">
+      <Filter>源文件\script\game\logo</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_SnakeText.cpp">
+      <Filter>源文件\script\game\snakeText</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>源文件\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="snake.cpp">
+      <Filter>源文件\script\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>源文件\script\game\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface_Menu.cpp">
+      <Filter>源文件\script\game\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="gameControll.cpp">
+      <Filter>源文件\script\game</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_LevelSelect.cpp">
+      <Filter>源文件\script\game</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Fail.cpp">
+      <Filter>源文件\script\game</Filter>
+    </ClCompile>
+    <ClCompile Include="food.cpp">
+      <Filter>源文件\script\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IView.h">
+      <Filter>头文件\engine\view</Filter>
+    </ClInclude>
+    <ClInclude Include="gameInit.h">
+      <Filter>头文件\engine\game</Filter>
+    </ClInclude>
+    <ClInclude Include="tools.h">
+      <Filter>头文件\engine\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>头文件\engine\time</Filter>
+    </ClInclude>
+    <ClInclude Include="behavior.h">
+      <Filter>头文件\engine\scene\behavior</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>头文件\engine\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="game_start.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="mainScene.h">
+      <Filter>头文件\script</Filter>
+    </ClInclude>
+    <ClInclude Include="point.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneControll.h">
+      <Filter>头文件\engine\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Logo.h">
+      <Filter>头文件\script\game\logo</Filter>
+    </ClInclude>
+    <ClInclude Include="logo_Point.h">
+      <Filter>头文件\script\game\logo</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_SnakeText.h">
+      <Filter>头文件\script\game\snakeText</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>头文件\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>头文件\script\game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="snake.h">
+      <Filter>头文件\script\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface_Menu.h">
+      <Filter>头文件\script\game\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="gameControll.h">
+      <Filter>头文件\script\game</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_LevelSelect.h">
+      <Filter>头文件\script\game</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Fail.h">
+      <Filter>头文件\script\game</Filter>
+    </ClInclude>
+    <ClInclude Include="food.h">
+      <Filter>头文件\script\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
